@@ -1,12 +1,3 @@
-# sprite
-A simple, high-performance, cross-platform automation tool
-
-
-## example
-
-> sprite examples/script.spr
-
-```spr
 ************** start script **************
 
 ** Set variable a of type pos, pos is a built-in coordinate type with (x, y) attribute, 
@@ -40,13 +31,3 @@ loop-start 10
     mouse right 10
 
 loop-end ** end the loop block
-```
-
-## Built keyword
-
-- `**`: code comment
-- `pos`: coordinate type with (x, y) attribute
-- `move`: move the mouse cursor
-- `mouse`: click the mouse `left | right` `tims`, default once
-- `sleep`: sleep time millisecond
-- `loop-start` -- `loop-end`: loop block, requires an integer parameter to be used as the loop count
